@@ -15,12 +15,13 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Dependencies](https://img.shields.io/badge/dependencies-0%20(stdlib)-success.svg?style=for-the-badge)](https://docs.python.org/3/library/)
-[![Tests](https://img.shields.io/badge/tests-38%2F38%20passing-brightgreen.svg?style=for-the-badge)](tests/)
+[![Tests](https://img.shields.io/badge/tests-45%2F45%20passing-brightgreen.svg?style=for-the-badge)](tests/)
 [![Audio](https://img.shields.io/badge/audio-8--bit%20async%20WAV-orange.svg?style=for-the-badge)](terminaltyper/assets/sfx/)
 [![Terminal](https://img.shields.io/badge/display-ANSI%2080--col-blueviolet.svg?style=for-the-badge)](#)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)](LICENSE)
+[![Author](https://img.shields.io/badge/author-TXMMTAMSOS%20(TXM4T0)-orange.svg?style=for-the-badge&logo=github)](https://github.com/TXM4T0)
 
-[Quick Start](#-quick-start) • [Gameplay Preview](#-gameplay-preview) • [Features](#-key-features) • [Combat Mechanics](#-combat-mechanics--telemetry) • [Boss Encounters](#-the-7-sector-bosses) • [Architecture](#-project-architecture) • [Tests](#-testing--verification)
+[Quick Start](#-quick-start) • [Gameplay Preview](#-gameplay-preview) • [Features](#-key-features) • [Combat Mechanics](#-combat-mechanics--telemetry) • [Boss Encounters](#-the-7-sector-bosses) • [Architecture](#-project-architecture) • [Tests](#-testing--verification) • [Author](#-author)
 
 </div>
 
@@ -81,8 +82,8 @@ The game renders within a strict, flicker-free **80-column ANSI viewport** split
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/terminal-typer.git
-   cd terminal-typer
+   git clone https://github.com/TXM4T0/Terminal-Typer-Game.git
+   cd Terminal-Typer-Game
    ```
 
 2. **Launch immediately:**
@@ -194,7 +195,7 @@ $$\text{Damage Taken} = \max(1, \operatorname{Round}(\text{Boss Damage} \times (
 ## 📁 Project Architecture
 
 ```
-terminal-typer/
+Terminal-Typer-Game/
 ├── terminaltyper/
 │   ├── assets/
 │   │   └── sfx/                 # 15 authentic 8-bit retro sound effect WAVs
@@ -267,7 +268,7 @@ Access the **Settings Menu** directly from the main title screen:
 
 ## 🧪 Testing & Verification
 
-The project includes a comprehensive automated test suite with **38 unit tests** validating mathematical accuracy, combat mechanics, and viewport formatting:
+The project includes a comprehensive automated test suite with **45 unit tests** validating mathematical accuracy, combat mechanics, and viewport formatting:
 
 ```bash
 python -m unittest discover -s tests -p "test_*.py" -v
@@ -313,6 +314,12 @@ Adding custom bosses is as simple as adding a new JSON object to [`terminaltyper
   }
 }
 ```
+
+---
+
+## 👤 Author
+
+* **TXMMTAMSOS** ([@TXM4T0](https://github.com/TXM4T0))
 
 ---
 
