@@ -1,0 +1,304 @@
+{
+  "boss_manifest": [
+    {
+      "id": "boss_01",
+      "name": "Slime Core",
+      "level": 3,
+      "max_hp": 120,
+      "theme": "Home-row foundation and introductory cadence",
+      "ascii": [
+        "       .---.      ",
+        "      /     \\     ",
+        "     (  o   o )   ",
+        "      \\  ___ /    ",
+        "     _.'     '._  ",
+        "    (___________) "
+      ],
+      "moves": [
+        { "name": "Acid Drip", "min_dmg": 6, "max_dmg": 10, "weight": 70, "status": null },
+        { "name": "Gel Slam", "min_dmg": 12, "max_dmg": 16, "weight": 30, "status": null }
+      ],
+      "dialogue": {
+        "encounter": "A volatile Slime Core bubbles up from the data pool!",
+        "midfight": "*gurgle*... S-s-slow down... you will dissolve in the heap...",
+        "defeat": "The Slime Core bursts into inert memory leaks!"
+      },
+      "word_banks": {
+        "jab": ["glad", "half", "fall", "dash", "gasp", "slag", "hall", "flag", "flow", "drip", "ooze", "drop", "melt", "blob"],
+        "heavy": [
+          "flash splash",
+          "alkali burst",
+          "toxic slime",
+          "viscous puddle",
+          "caustic bubble",
+          "acidic surge",
+          "dense sludge",
+          "dissolve core",
+          "slippery hazard"
+        ],
+        "parry": ["absorb blow", "slime barrier", "buffer splash", "deflect wave", "cushion impact", "elastic defense"],
+        "rest": ["rest heap", "cool pool", "soft gel", "settle down", "recharge puddle", "stabilize core"]
+      }
+    },
+    {
+      "id": "boss_02",
+      "name": "Iron Golem",
+      "level": 6,
+      "max_hp": 220,
+      "theme": "Double consonants, vowels, and steady rhythm",
+      "ascii": [
+        "     [=======]    ",
+        "     | #   # |    ",
+        "   ==|  ---  |==  ",
+        "   [ | [===] | ]  ",
+        "     \\_/   \\_/    ",
+        "     | |   | |    "
+      ],
+      "moves": [
+        { "name": "Heavy Fist", "min_dmg": 14, "max_dmg": 20, "weight": 65, "status": null },
+        { "name": "Ground Tremor", "min_dmg": 22, "max_dmg": 28, "weight": 35, "status": "STUMBLE" }
+      ],
+      "dialogue": {
+        "encounter": "The Iron Golem locks into defensive stance. Tremors shake the console!",
+        "midfight": "ARMOR PLATING COMPROMISED. RECALIBRATING ANVIL PROTOCOL.",
+        "defeat": "The Golem's joints lock up, crumbling into iron slag!"
+      },
+      "word_banks": {
+        "jab": ["iron", "slag", "gear", "fist", "bolt", "rust", "core", "metal", "clang", "rivet", "steel", "forge"],
+        "heavy": [
+          "iron shatter",
+          "hammer anvil",
+          "pillar crash",
+          "heavy cannon",
+          "seismic tremor",
+          "crushing blow",
+          "forged strike",
+          "titanium crush",
+          "battering ram"
+        ],
+        "parry": ["iron bulwark", "defend bastion", "steel plating", "absorb tremor", "fortified wall", "deflect hammer"],
+        "rest": ["cool iron", "vent steam", "oil gears", "dampen furnace", "quench blade", "reinforce frame"]
+      }
+    },
+    {
+      "id": "boss_03",
+      "name": "Swift Falcon",
+      "level": 8,
+      "max_hp": 180,
+      "theme": "High-speed bursts under strict time limits (<= 2.5s)",
+      "speed_limit_seconds": 2.5,
+      "ascii": [
+        "        /|        ",
+        "      /  |___     ",
+        "    =(  o>   )    ",
+        "      \\___  /     ",
+        "          |/      "
+      ],
+      "moves": [
+        { "name": "Dive Bomb", "min_dmg": 18, "max_dmg": 26, "weight": 60, "status": null },
+        { "name": "Sonic Screech", "min_dmg": 28, "max_dmg": 36, "weight": 40, "status": null }
+      ],
+      "dialogue": {
+        "encounter": "Swift Falcon screeches overhead! \"You cannot strike what you cannot track!\"",
+        "midfight": "\"Too slow, Courier! The wind outpaces your keys!\"",
+        "defeat": "Swift Falcon plummets with broken aerodynamics!"
+      },
+      "word_banks": {
+        "jab": ["bolt", "dash", "wing", "wind", "gust", "dart", "soar", "fast", "swoop", "glide", "dive", "talon"],
+        "heavy": [
+          "slipstream strike",
+          "supersonic dive",
+          "feather tempest",
+          "aerial onslaught",
+          "velocity burst",
+          "gale force surge",
+          "sonic barrier break"
+        ],
+        "parry": ["evasive barrel roll", "feather deflection", "airbrake sidestep", "slipstream parry", "aerial counter"],
+        "rest": ["take breath", "calm skies", "level flight", "glide on thermal", "steady altitude", "rest wings"]
+      }
+    },
+    {
+      "id": "boss_04",
+      "name": "Shadow Doppelgänger",
+      "level": 11,
+      "max_hp": 260,
+      "theme": "Mirror reflections, shadowy doubles, and elusive phantoms",
+      "ascii": [
+        "       .---.      ",
+        "      / - - \\     ",
+        "     |  . .  |    ",
+        "      \\  =  /     ",
+        "      /`---'\\     ",
+        "     / |   | \\    "
+      ],
+      "moves": [
+        { "name": "Mirror Strike", "min_dmg": 18, "max_dmg": 26, "weight": 65, "status": null },
+        { "name": "Shadow Clone", "min_dmg": 26, "max_dmg": 34, "weight": 35, "status": "GLITCH" }
+      ],
+      "dialogue": {
+        "encounter": "Your reflection steps out of the screen: \"I know every typo!\"",
+        "midfight": "\"Look at yourself. Your hand is already shaking on the keys.\"",
+        "defeat": "The mirror cracks. The silhouette shatters into black glass!"
+      },
+      "word_banks": {
+        "jab": ["echo", "mask", "dark", "soul", "void", "twin", "shade", "mirage", "phantom", "specter", "cloak", "glimmer"],
+        "heavy": [
+          "shattered mirror image",
+          "haunting twilight twin",
+          "reflection strikes back",
+          "dancing through shadows",
+          "illusions of the void",
+          "broken glass reflection",
+          "phantom double strike",
+          "vanish into darkness"
+        ],
+        "parry": ["reverse polarity", "unmask shadow", "counter reflection", "reflect beam", "dispel illusion", "parry silhouette"],
+        "rest": ["clear mind", "break trance", "shatter glass", "steady pulse", "banish darkness", "restore focus"]
+      }
+    },
+    {
+      "id": "boss_05",
+      "name": "Frost Lich",
+      "level": 15,
+      "max_hp": 320,
+      "theme": "Glacial phrasing, winter compound expressions, and biting cold",
+      "ascii": [
+        "      ,-.  ,-.    ",
+        "     (   \\/   )   ",
+        "      )  ()  (    ",
+        "     (   /\\   )   ",
+        "      `-'  `-'    ",
+        "       (o  o)     ",
+        "      /  /\\  \\    "
+      ],
+      "moves": [
+        { "name": "Frostbite", "min_dmg": 28, "max_dmg": 40, "weight": 70, "status": null },
+        { "name": "Glacial Tomb", "min_dmg": 44, "max_dmg": 55, "weight": 30, "status": "CHILL" }
+      ],
+      "dialogue": {
+        "encounter": "A biting draft fills the room. \"All warmth ceases at absolute zero.\"",
+        "midfight": "\"Your fingers stiffen... numbness is the only constant here.\"",
+        "defeat": "The Lich's crown crumbles into pale frost!"
+      },
+      "word_banks": {
+        "jab": ["cold", "rime", "zero", "frost", "chill", "hail", "pale", "bite", "blizzard", "sleet", "drift"],
+        "heavy": [
+          "bitter glacial wind",
+          "frozen brittle bones",
+          "absolute zero silence",
+          "creeping permafrost chill",
+          "unforgiving winter storm",
+          "crystal clear icicle",
+          "deep freeze avalanche",
+          "shattering frost nova"
+        ],
+        "parry": ["crystal ice shield", "shatter frost barrier", "absorb deep chill", "glacial reflection", "deflect blizzard", "ice wall defense"],
+        "rest": ["kindle flame", "warm hearth", "thaw fingers", "spark embers", "gather warmth", "melt frost"]
+      }
+    },
+    {
+      "id": "boss_06",
+      "name": "Cyber Mech",
+      "level": 18,
+      "max_hp": 400,
+      "theme": "Advanced technology, mainframe systems, and cybernetic warfare",
+      "ascii": [
+        "     /--------\\   ",
+        "    | [0]  [0] |  ",
+        "    |   <__>   |  ",
+        "   /|==========|\\ ",
+        "  [ |  [CPU]   | ]",
+        "    \\==========/  "
+      ],
+      "moves": [
+        { "name": "Overclock Pulse", "min_dmg": 35, "max_dmg": 50, "weight": 60, "status": null },
+        { "name": "System Purge", "min_dmg": 52, "max_dmg": 68, "weight": 40, "status": "BURN" }
+      ],
+      "dialogue": {
+        "encounter": "Turbines spin up! \"Automated defense matrix online: Hostile entity detected.\"",
+        "midfight": "\"Overclock level critical. Coolant purged. Maximum overdrive engaged.\"",
+        "defeat": "Cyber Mech blows its core capacitors in a cloud of smoke!"
+      },
+      "word_banks": {
+        "jab": ["core", "flux", "pulse", "grid", "node", "relay", "servo", "turbo", "logic", "binary", "drive", "laser"],
+        "heavy": [
+          "superheated core meltdown",
+          "cybernetic targeting link",
+          "hydraulic pressure release",
+          "automated defense barrage",
+          "emergency bypass sequence",
+          "quantum mainframe overload",
+          "circuit breaker disruption",
+          "algorithmic strike vector"
+        ],
+        "parry": [
+          "firewall defensive shield",
+          "emergency cycle abort",
+          "buffer lock protocol",
+          "ground surge diversion",
+          "isolate power subsystem",
+          "deflect laser battery"
+        ],
+        "rest": ["dump stack", "reboot core", "cycle power", "vent coolant", "recalibrate sensors", "purge thermal registers"]
+      }
+    },
+    {
+      "id": "boss_07",
+      "name": "Void Sovereign",
+      "level": 20,
+      "max_hp": 550,
+      "theme": "Full compound sentences, prose cadence, and cosmic entropy",
+      "ascii": [
+        "       /\\_/\\      ",
+        "     =( o.o )=    ",
+        "       > ^ <      ",
+        "     /`     `\\    ",
+        "    / |  V  | \\   ",
+        "   (  |  O  |  )  ",
+        "    \\_|  I  |_/   ",
+        "      \\  D  /     ",
+        "       `---'      "
+      ],
+      "moves": [
+        { "name": "Event Horizon", "min_dmg": 45, "max_dmg": 65, "weight": 55, "status": null },
+        { "name": "Singularity Collapse", "min_dmg": 68, "max_dmg": 92, "weight": 45, "status": "RANDOM" }
+      ],
+      "dialogue": {
+        "encounter": "The room bends. \"You brought letters to a place where meaning itself dies.\"",
+        "midfight": "\"Type faster, little spark. The black hole does not negotiate.\"",
+        "defeat": "\"Connection... terminated. You have rewritten the void...\""
+      },
+      "word_banks": {
+        "jab": ["void", "null", "fade", "dark", "zero", "abyss", "lost", "empty", "shadow", "hollow", "oblivion", "infinite"],
+        "heavy": [
+          "The abyss looks back through broken glass.",
+          "Silence consumes all lingering frequency.",
+          "Zero over zero remains undefined forever.",
+          "Every signal degrades into cosmic background noise.",
+          "Nothing escapes the gravitational pull of collapse.",
+          "Time fractures where light and shadow intertwine.",
+          "A dying star leaves only echoes in the vacuum.",
+          "The boundary of reality dissolves into pure entropy."
+        ],
+        "parry": [
+          "hold reality",
+          "anchor beacon",
+          "signal flare",
+          "chronos seal",
+          "stabilize space",
+          "deflect gravity wave",
+          "contain singularity"
+        ],
+        "rest": [
+          "remember light",
+          "ignite the core",
+          "spark of life",
+          "anchor your humanity",
+          "kindle distant stars",
+          "preserve consciousness"
+        ]
+      }
+    }
+  ]
+}
