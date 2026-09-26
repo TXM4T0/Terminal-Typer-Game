@@ -16,6 +16,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Dependencies](https://img.shields.io/badge/dependencies-0%20(stdlib)-success.svg?style=for-the-badge)](https://docs.python.org/3/library/)
 [![Tests](https://img.shields.io/badge/tests-45%2F45%20passing-brightgreen.svg?style=for-the-badge)](tests/)
+[![Gameplay Preview](https://img.shields.io/badge/preview-gameplay%20video-blueviolet.svg?style=for-the-badge&logo=youtube)](#-gameplay-preview)
 [![Audio](https://img.shields.io/badge/audio-8--bit%20async%20WAV-orange.svg?style=for-the-badge)](terminaltyper/assets/sfx/)
 [![Terminal](https://img.shields.io/badge/display-ANSI%2080--col-blueviolet.svg?style=for-the-badge)](#)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)](LICENSE)
@@ -41,6 +42,26 @@ Built entirely on the **Python standard library** with **zero external dependenc
 ---
 
 ## 🎮 Gameplay Preview
+
+<div align="center">
+
+  <a href="assets/gameplay.mp4" title="Click to view HD Video with 8-bit Audio">
+    <img src="assets/gameplay.gif" alt="Terminal Typer: Battle Protocol Gameplay Preview" width="820" />
+  </a>
+
+  <p>
+    <strong>⚡ High-Velocity Keystroke Combat:</strong> Real-time typing telemetry, kinetic attack strikes, dynamic HP depletion, and synchronized 8-bit audio.
+  </p>
+
+  <p>
+    <a href="assets/gameplay.mp4">
+      <img src="https://img.shields.io/badge/Download_HD_Video-MP4_(with_8--Bit_Audio)-blue?style=for-the-badge&logo=quicktime" alt="Download HD Gameplay Video" />
+    </a>
+  </p>
+
+</div>
+
+### 📐 80-Column Viewport Architecture
 
 The game renders within a strict, flicker-free **80-column ANSI viewport** split into three distinct tactical zones:
 
@@ -314,6 +335,20 @@ Adding custom bosses is as simple as adding a new JSON object to [`terminaltyper
   }
 }
 ```
+
+---
+
+## 🎥 Preview Video & Asset Generator
+
+To re-record or update the gameplay preview GIF and MP4 video (e.g. after adding custom bosses, themes, or move sets):
+
+```bash
+python scripts/generate_gameplay_preview.py
+```
+
+This simulates a battle encounter against **Sector 1: Slime Core**, rendering high-resolution 80-column ANSI frames and synchronized 8-bit audio into:
+* `assets/gameplay.gif`: Optimized looping animated GIF for GitHub preview.
+* `assets/gameplay.mp4`: High-definition H.264 video with synchronized 8-bit sound effects.
 
 ---
 
